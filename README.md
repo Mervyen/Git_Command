@@ -103,19 +103,22 @@ eg.`git reset --hard 0cbb3bc`
 **注意此处的commit是不可以带文件名的！！！**
 
 ---
-#远程库的操作指令
+远程库的操作指令
+====
 
 **·**`master`代表本地的master分支。
 **·**`origin master`前面的origin代表的是远程库的别名（在下面的1.2 有说明），后面的master代表的是远程的master分支名。 
 **·**`origin/master`代表一个概念，是远程的分支名。是将远程的代码通过`git fetch`拉取到本地后建立的一份拷贝。
-##1.初始化远程库操作
+1.初始化远程库操作
+-----
 **1.1 创建远程库**
 > * 选择github当做我们的远程库
 
 **1.2 将本地库和远程库连接**
 > * 命令`git remote add origin hhtps://xxxxxxxxxxxxx`。这样之后，我们每次提交都不需要输入hhtps：//xxxxx这一长串网络地址来了。这里的**origin**相当于我们hhtps这个地址的别名。（此处也可以使用ssh_key）
 
-##2.基本操作##
+2.基本操作
+-----
 **2.1 拉取操作**
 > * pull = fetch + merge
 > * 命令:
