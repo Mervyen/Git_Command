@@ -103,10 +103,11 @@ eg.`git reset --hard 0cbb3bc`
 ---
 远程库的操作指令
 ====
----
-**·**`master`代表本地的master分支。<br>
-**·**`origin master`前面的origin代表的是远程库的别名（在下面的1.2 有说明），后面的master代表的是远程的master分支名。<br> 
-**·**`origin/master`代表一个概念，是远程的分支名。是将远程的代码通过`git fetch`拉取到本地后建立的一份拷贝。<br>
+
+*·*`master`代表本地的master分支。<br>
+*·*`origin master`前面的origin代表的是远程库的别名（在下面的1.2 有说明），后面的master代表的是远程的master分支名。<br> 
+*·*`origin/master`代表一个概念，是远程的分支名。是将远程的代码通过`git fetch`拉取到本地后建立的一份拷贝。<br>
+
 1.初始化远程库操作
 -----
 **1.1 创建远程库**
